@@ -15,8 +15,8 @@ let loaded = 0;
 const canvas = document.getElementById("walker-canvas");
 const ctx = canvas.getContext("2d");
 
-const spriteWidth = 600;
-const spriteHeight = 1200;
+const spriteWidth = 200;
+const spriteHeight = 400;
 const walkSpeed = 2; // Trager
 const loopX = 0; // Stop helemaal links
 
