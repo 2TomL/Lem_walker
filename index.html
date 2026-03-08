@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Lem Boss Stream Element</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    #walker-container {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1200px;
+      height: 1200px;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    canvas {
+      background: transparent;
+      width: 1200px;
+      height: 1200px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="walker-container">
+    <canvas id="walker-canvas" width="1200" height="1200"></canvas>
+  </div>
+  <script src="walker.js"></script>
+</body>
+</html>
